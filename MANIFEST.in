@@ -1,0 +1,7 @@
+include README.txt
+include INSTALL
+include MANIFEST.in
+include LICENSE
+include GPL2.0
+include ReleaseNotes.rst
+graft  tingyun

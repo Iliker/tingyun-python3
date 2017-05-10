@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+
+"""Define commanding elevation for tingyun agent commands entrance.
+
+Now commander(agent commands management) sends the orders to army(agent modules/functions) dispatch center
+
+"""
+
+from tingyun import commander
+
+if __name__ == "__main__":
+    """Show Command
+    """
+    commander.launch_commanding_elevation()

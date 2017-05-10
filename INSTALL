@@ -1,0 +1,26 @@
+Installation Instructions
+=========================
+
+This file provides a brief set of installation instructions for the Python
+agent. Also see the NetworkBench documentation site at:
+
+    http://www.tingyun.com
+
+for additional information.
+
+
+------------------------------
+
+If you don't want to read through the complete instructions here and on the
+NetworkBench documentation site, you should at least read the following section.
+
+To get the TingYun Python agent working you need to perform three steps.
+
+    1. Install the tingyun Python package.eg: pip install tingyun
+    2. Generate the Python agent configuration file with license, log etc.
+       tingyun-amdin generate-config yourLicense /tmp /tingyun.ini
+       export TING_YUN_CONFIG_FILE=/tmp /tingyun.ini
+
+    3. Embedded agent to your application,  egg: tingyun-admin run-program  YOUR_PROGRAM YOUR PROGRAM PARAMETERS
+    4  More specification, configuration, usage to look for tingyun-agent-python.pdf
+
